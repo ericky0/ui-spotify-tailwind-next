@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1>AskkeMusic - spotify clone</h1>
 
-## Getting Started
+> Status: Finished. maybe more features in the future =)
+<br/>
 
-First, run the development server:
+<p align="center">
+    AskTube - <span><b>Elevating the music</b> streaming <b>experiece</b> to a new <b>level</b> with our Spotify clone.</span>
+    <br />
+    <br />
+    <a href="https://github.com/ericky0/ui-spotify-tailwind-next"><strong>Explore os arquivos »</strong></a>
+  </p>
+</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+<!-- ABOUT THE PROJECT -->
+## About the project 🎨
+
+- AskkeMusic is a feature-rich music streaming platform inspired by Spotify. It was a project designed to learn tailwind, i went a little further.
+
+![image](https://user-images.githubusercontent.com/53923000/233568207-b7cb3b1b-bd09-4149-900b-3e7969bdbe9f.png)
+
+## 🧪 Some technologies used in this project:
+
+* [Typescript](https://www.typescriptlang.org/)
+* [Next](https://nextjs.org)
+* [Tailwind](https://tailwindcss.com)
+
+
+## How to start the project on your machine
+
+#### Prerequisites
+
+``` Git, Yarn or NPM ```
+
+#### Instalation
+
 ```
+# Clone this repository
+$ git clone https://github.com/ericky0/ui-spotify-tailwind-next/
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Install the dependencies for each folder
+$ yarn | npm
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# Start the project
+$ client folder: npm run dev
 
-[http://localhost:3000/api/hello](http://localhost:3000/api/hello) is an endpoint that uses [Route Handlers](https://beta.nextjs.org/docs/routing/route-handlers). This endpoint can be edited in `app/api/hello/route.ts`.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+# Finally, the application will be available at `http://localhost:3000`
+```
